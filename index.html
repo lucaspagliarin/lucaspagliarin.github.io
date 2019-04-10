@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Startup</title>
-
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat"
-      rel="stylesheet"
-    />
-
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
-      integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-      crossorigin="anonymous"
-    />
-
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Layout Master</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
   </head>
   <body>
-    <header class="startup text-center text-white d-flex">
-      <div class="container my-auto">
-        <div class="row">
-          <div class="col-lg-12 my-auto">
-            <h1 class="text-uppercase faded">
-              <strong>the biggest startup event of the year</strong>
-            </h1>
-            <hr />
-          </div>
-          <div class="col-lg-12 my-auto">
-            <button class="btn btn-primary">Find Out More</button>
-          </div>
-        </div>
-      </div>
-    </header>
+    <div class="container">
+      <header class="nav green"></header>
+      <section class="zone cover red">
+        Cover
+      </section>
+      <section class="zone projects blue">
+        <div>Project 1</div>
+        <div>Project 2</div>
+        <div>Project 3</div>
+        <div>Project 4</div>
+        <div>Project 4</div>
+        <div>Project 4</div>
+        <div>Project 4</div>
+      </section>
+      <footer>
+        <div class="zone yellow">Footer</div>
+      </footer>
+    </div>
   </body>
 </html>
